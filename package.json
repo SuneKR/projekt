@@ -1,0 +1,31 @@
+{
+  "name": "encounterassistant",
+  "version": "1.0.0",
+  "description": "A battlemap and initiativetacker for use in various rpgs with a focus on strengthning the offline experience and drawing unnecessary attention away from the table.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuneKR/encounterAssistant.git"
+  },
+  "author": "Sune Koch Rønnow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuneKR/encounterAssistant/issues"
+  },
+  "homepage": "https://github.com/SuneKR/encounterAssistant#readme",
+  "dependencies": {
+    "async-preloader": "^8.0.2",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "node": "^19.6.0"
+  },
+  "devDependencies": {
+    "canvas-tint-image": "^2.1.0",
+    "get-canvas-context": "^1.0.2",
+    "rollup": "^3.17.2"
+  }
+}
